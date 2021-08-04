@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: samsung-sds:5000/gitopspoc:16
+      - image: samsung-sds:5000/gitopspoc:17
         name: guestbook-ui
         ports:
         - containerPort: 8080
